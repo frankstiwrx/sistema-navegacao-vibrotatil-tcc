@@ -1,0 +1,24 @@
+# =========================
+# Android / Gradle
+# =========================
+aplicativo-android/.gradle/
+aplicativo-android/local.properties
+aplicativo-android/secrets.properties
+aplicativo-android/**/build/
+aplicativo-android/*.iml
+aplicativo-android/.idea/
+aplicativo-android/.externalNativeBuild/
+aplicativo-android/.cxx/
+
+# =========================
+# PlatformIO / ESP32
+# =========================
+firmware-esp32/.pio/
+firmware-esp32/.vscode/.browse.c_cpp.db*
+firmware-esp32/.vscode/ipch/
+
+# =========================
+# Arquivos do sistema
+# =========================
+Thumbs.db
+.DS_Store

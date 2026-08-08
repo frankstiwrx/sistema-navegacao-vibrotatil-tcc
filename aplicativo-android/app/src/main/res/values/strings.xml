@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Localizador</string>
+    <string name="google_maps_api_key">SUA_CHAVE_GOOGLE_MAPS_AQUI</string>
+</resources>
