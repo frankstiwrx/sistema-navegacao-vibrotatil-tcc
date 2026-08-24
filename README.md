@@ -57,14 +57,22 @@ visualmente no aplicativo e convertida em um comando enviado à ESP32.
 
 ### Cálculo de distância e direção
 
-![Cálculo de distância e direção no aplicativo](documentacao/figuras/calculo-distancia-direcao.png)
+<p align="center">
+  <img src="documentacao/figuras/calculo-distancia-direcao.png"
+       alt="Cálculo de distância e direção no aplicativo"
+       width="800">
+</p>
 
 Os testes da aplicação permitiram verificar o cálculo da distância até o
 destino e a determinação das direções utilizadas pela lógica de navegação.
 
 ### Comunicação BLE
 
-![Teste de conexão BLE](documentacao/figuras/teste-conexao-ble.png)
+<p align="center">
+  <img src="documentacao/figuras/teste-conexao-ble.png"
+       alt="Teste de conexão BLE"
+       width="350">
+</p>
 
 A comunicação BLE foi utilizada para transmitir os parâmetros calculados pela
 aplicação para a ESP32.
@@ -179,7 +187,11 @@ e a integração entre o firmware e o hardware físico.
 
 ## Integração entre aplicativo e ESP32
 
-![Integração entre aplicativo Android e ESP32 com LEDs](documentacao/figuras/integracao-app-esp32-leds.png)
+<p align="center">
+  <img src="documentacao/figuras/integracao-app-esp32-leds.png"
+       alt="Integração entre aplicativo Android e ESP32 com LEDs"
+       width="750">
+</p>
 
 Nesta etapa, os comandos calculados pela aplicação foram enviados por BLE à
 ESP32 e representados fisicamente pelos LEDs da montagem experimental.
@@ -189,7 +201,11 @@ ESP32 e representados fisicamente pelos LEDs da montagem experimental.
 O atuador piezoelétrico foi investigado como uma alternativa durante as etapas
 intermediárias do desenvolvimento.
 
-![Montagem física utilizada nos testes com atuador piezoelétrico](documentacao/figuras/montagem-piezo.png)
+<p align="center">
+  <img src="documentacao/figuras/montagem-piezo.png"
+       alt="Montagem física utilizada nos testes com atuador piezoelétrico"
+       width="450">
+</p>
 
 Os testes realizados nesta etapa contribuíram para a comparação exploratória
 entre diferentes formas de geração de estímulo.
@@ -202,15 +218,31 @@ conceito.
 
 ### Montagens utilizadas
 
-![Teste experimental com motor vibratório 1027 — montagem 1](documentacao/figuras/teste-motor-1027-1.png)
+<p align="center">
+  <img src="documentacao/figuras/teste-motor-1027-1.png"
+       alt="Teste experimental com motor vibratório 1027 — montagem 1"
+       width="550">
+</p>
 
-![Teste experimental com motor vibratório 1027 — montagem 2](documentacao/figuras/teste-motor-1027-2.png)
+<p align="center">
+  <img src="documentacao/figuras/teste-motor-1027-2.png"
+       alt="Teste experimental com motor vibratório 1027 — montagem 2"
+       width="450">
+</p>
 
 ### Registros em movimento
 
-![Teste experimental do motor vibratório 1027 — GIF 1](documentacao/figuras/motor-1027-1.gif)
+<p align="center">
+  <img src="documentacao/figuras/motor-1027-1.gif"
+       alt="Teste experimental do motor vibratório 1027 — GIF 1"
+       width="500">
+</p>
 
-![Teste experimental do motor vibratório 1027 — GIF 2](documentacao/figuras/motor-1027-2.gif)
+<p align="center">
+  <img src="documentacao/figuras/motor-1027-2.gif"
+       alt="Teste experimental do motor vibratório 1027 — GIF 2"
+       width="500">
+</p>
 
 Os registros desta seção representam testes experimentais de bancada. A
 configuração física completa contendo oito motores vibratórios simultâneos não
