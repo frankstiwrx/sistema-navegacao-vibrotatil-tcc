@@ -100,15 +100,47 @@ presente no arquivo:
 
 por uma chave válida da Google Maps Platform.
 
-## Compilação do aplicativo
+## Compilação e execução do aplicativo
+
+O aplicativo Android e o firmware ESP32 são projetos independentes dentro
+deste repositório.
+
+Para trabalhar com a aplicação móvel, abra somente o diretório
+`aplicativo-android/` no Android Studio.
+
+### Requisitos
+
+O projeto Android foi validado com:
+
+- JDK 17;
+- Gradle Wrapper 8.11;
+- Android Gradle Plugin 8.5.2;
+- Kotlin 1.9.0.
+
+No Android Studio, configure o **Gradle JDK** para uma instalação do JDK 17.
+
+> No Windows, recomenda-se clonar o repositório em um caminho sem caracteres
+> acentuados ou especiais, por exemplo `C:\Dev\sistema-navegacao-vibrotatil-tcc`.
+> O Android Gradle Plugin pode apresentar erros quando o caminho do projeto
+> contém caracteres não ASCII.
 
 Na pasta `aplicativo-android`, execute:
 
 ```powershell
-.\gradlew.bat assembleDebug
+.\gradlew.bat clean assembleDebug
 ```
 
-O projeto foi verificado utilizando o Gradle Wrapper 8.11.
+Após uma compilação bem-sucedida, o APK de debug será gerado em:
+
+`aplicativo-android/app/build/outputs/apk/debug/app-debug.apk`
+
+Para utilizar os recursos do Google Maps, também é necessário configurar uma
+chave válida conforme descrito na seção **Configuração do Google Maps**.
+
+### APK para instalação
+
+Uma versão compilada do aplicativo Android é disponibilizada na seção
+**Releases** deste repositório para testes e demonstração.
 
 ## Firmware ESP32
 
